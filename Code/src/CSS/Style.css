@@ -1,0 +1,172 @@
+/*General Starts*/
+section {
+    padding: 60px 0;
+}
+
+.text_center {
+    text-align: center;
+}
+/*General Ends*/
+
+/*Main Section Starts*/
+header {
+    height: 450px;
+    color: white;
+    font: bold 6.5em/2em monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    background: linear-gradient(to top, #b5afdbba, #349ab1cc), url('../Images/bannerimage.jpg') no-repeat top center;
+}
+
+.about-text{
+	float: left;
+	width: 60%;
+	padding-right: 20px;
+}
+
+.pageheading {
+    font-size: 22px;
+    margin: 15px 0 10px;
+    font-weight: 700;
+    color: #116466;
+}
+
+.title{
+	margin-bottom: 30px;
+}
+
+.title h2{
+	font-size:25px;
+	text-transform: uppercase;
+}
+
+.about-img img {
+    max-width: 380px;
+    width: 100%;
+}
+
+.showallbutton{
+    background-color: #6e65a7ba;
+    color: white;
+    font-size: medium;
+    border-color: #6e65a7ba;
+    font-weight: 500;
+}
+
+.showallbutton:hover, .showallbutton:active, .showallbutton:visited, .showallbutton:focus, .showallbutton:focus-visible{
+    background-color: #349ab1cc !important;
+    border-color: #349ab1cc !important;
+}
+/*Main Section Ends*/
+
+/*Weather Starts*/
+.WeatherSection{
+    background-color: #f4f7f6;
+}
+
+.temprature-block {
+    background: #cfe0f3;
+    border-radius: 5px 5px 5px 5px;
+    color: black;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.temprature {
+    padding: 0px;
+}
+
+.temprature li {
+    display: inline-block;
+    padding: 15px;
+    width: 33%;
+  }
+/*Weather Ends*/
+
+/*Event Starts*/
+.list-group-item.active {
+    z-index: 2;
+    color: #173b3c;
+    background-color: #fff;
+    border-color: black;
+    border-radius: 5px;
+    min-height: 140px;
+}
+
+.eventlist-title{
+    background-color: #f4f7f6;
+    padding: 10px;
+    border-radius: 5px;
+}
+/*Event Ends*/
+
+/*Place Starts*/
+.PlaceSection{
+    background-color: #f4f7f6;
+}
+
+.listing-places{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.places-number-circle{
+    height: 50px;
+    width: 50px;
+    background-color: #6e65a7ba;
+    border-radius: 50%;
+    position: absolute;
+    display: block;
+    top: -22px;
+    left: 20;
+}
+
+.places-number{
+    position: absolute;
+    display: block;
+    top: -11px;
+    left: 40;
+    font-weight: 700;
+    font-size: larger;
+}
+
+.places-data{
+	height: auto;
+	width: 90%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	position: relative;
+	flex: 0 0 auto;
+	margin: 20px;
+	background-color: #d1e5dd;
+	padding-bottom: 30px;
+    min-height: 200px;
+}
+
+.places-title{
+	margin: 42px 0 20px 10px;    
+	text-transform: capitalize;
+    padding: 30px 20px 0 20px;
+}
+
+.place-address{
+    padding: 0 20px 0 20px;
+}
+/*Place Ends*/
+
+/*Footer Starts*/
+.copyright{
+    padding: 20px 0;
+    background: #25213eba;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+  }
+  .copyright a{
+    color: #FFF;
+    font-weight: 600;
+  }
+/*Footer Ends*/
