@@ -6,6 +6,10 @@ section {
 .text_center {
     text-align: center;
 }
+
+.alert {
+    margin-top: 1rem;
+}
 /*General Ends*/
 
 /*Main Section Starts*/
@@ -101,6 +105,30 @@ header {
     padding: 10px;
     border-radius: 5px;
 }
+
+/* .eventsec{       
+    min-height: 130px;
+    background-color: wheat;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around; 
+}
+
+.eventsec1
+{
+    display:flex;
+    flex-direction:column;
+    width: 15%;
+    text-align: center; 
+    background-color: #fff;
+    margin: 10px;
+}
+
+.eventsec2
+{
+    display:flex;
+    flex-direction:column;
+} */
 /*Event Ends*/
 
 /*Place Starts*/
@@ -170,3 +198,19 @@ header {
     font-weight: 600;
   }
 /*Footer Ends*/
+
+/*Loading Starts*/
+.loading-div{
+    font-weight: bold;
+    /* position: relative;
+    animation: mymove 30s infinite;
+    animation-timing-function: linear; */
+    color: #1b6d80cc;
+  }
+
+/* 
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 600px;}
+  } */
+/*Loading Ends*/
