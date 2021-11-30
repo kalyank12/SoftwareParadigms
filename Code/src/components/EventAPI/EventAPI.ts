@@ -3,7 +3,7 @@ import * as CommonConstants from '../../Constants';
 import { Eventprops } from './Eventprops';
 
 export const fetchEventData = async (lat: string, lon: string) => {
-    const endpoint = `${CommonConstants.EVENTAPI}?&limit=${CommonConstants.EVENTAPI_LIMIT_SEARCH}&location_around.origin=${lat},${lon}&start_around.origin=2021-11-20T00:13:00Z&end_around.origin=2021-12-25T00:08:00Z&category=academic,sports,festivals&sort=-start`;
+    const endpoint = `${CommonConstants.EVENTAPI}?&limit=${CommonConstants.EVENTAPI_LIMIT_SEARCH}&location_around.origin=${lat},${lon}&start_around.origin=2021-11-29T00:13:00Z&end_around.origin=2021-12-03T00:08:00Z&category=academic,sports,festivals&sort=-start`;
     let EventDetails: Eventprops[] = [];
 
     const requestHeaders: HeadersInit = new Headers();
